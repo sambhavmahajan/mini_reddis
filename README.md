@@ -1,5 +1,5 @@
-# Mini Reddis
-This is a reddis clone, but with less features. It utilizes a TCP server running by default on 5233 port.
+# Mini Redis
+This is a redis clone, but with less features. It utilizes a TCP server running by default on 5233 port.
 
 ## Featues:
 - Reteriving value from key: Get Request with endpoint /username/password/key
