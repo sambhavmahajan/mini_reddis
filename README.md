@@ -20,3 +20,8 @@ This is a redis clone, but with less features. It utilizes a TCP server running 
 ```
 go run main.go
 ```
+## Running using docker
+```
+docker build -t mini_reddis .
+docker run -P mini_reddis
+```
