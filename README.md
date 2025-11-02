@@ -10,12 +10,15 @@ This is a redis clone, but with less features. It utilizes a TCP server running 
 - Atomic Saving: File is first persisted to a temp file, then it is persisted to save file
 
 ## configuration file: constants/constants.go
-- Port = 5233
-- FileName = "save.sav"
-- TempFileName = "tmp.sav"
-- UserName = "sambhav"
-- Password = "sambhav"
-
+```
+const (
+	Port = 5233
+	FileName = "save.sav"
+	TempFileName = "tmp.sav"
+	UserName = "sambhav"
+	Password = "sambhav"
+)
+```
 ## Running
 ```
 go run main.go
