@@ -31,7 +31,7 @@ Request Format
 METHOD /<username>/<password>/<args>
 ```
 delimited by new line character
-<args> are separated by -:
+<args> are separated by '-'
 - For POST (set data): POST /user/pass/key-value
 - For GET (fetch data): GET /user/pass/key
 - For DELETE (delete data): DELETE /user/pass/key
@@ -39,9 +39,9 @@ delimited by new line character
 ## Example request
 On terminal use netcat
 ```
-echo "POST /sambhav/sambhav/name-sambhav\n" | ncat localhost 5233
+echo "POST /sambhav/sambhav/name-sambhav" | ncat localhost 5233
 ```
-<img width="571" height="69" alt="image" src="https://github.com/user-attachments/assets/04b590a2-7624-4c09-8971-002485b530e6" /><br>
+<img width="556" height="69.5" alt="image" src="https://github.com/user-attachments/assets/5d720b3f-0be4-4d1b-a4e1-9e0b5c9e1306" /><br>
 *Figure 1: Terminal Screenshot*
 
 ## Running using docker
