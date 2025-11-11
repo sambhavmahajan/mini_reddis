@@ -2,8 +2,7 @@
 This is a redis clone, but with less features. It utilizes a TCP server running by default on 5233 port.
 ## Prerequisite
 - Golang
-- Netcat or Postman
-
+- Netcat
 ## Featues:
 - Reteriving value from key
 - Inserting key value pair
